@@ -180,8 +180,6 @@ void* Alloc_OverflowCheck(size_t size)
 {
 	void* pAlloc = _AllocManager.Alloc(size);
 
-
-
 	return pAlloc;
 }
 
