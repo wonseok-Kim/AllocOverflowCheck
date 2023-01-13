@@ -150,7 +150,7 @@ public:
 			{
 				bPrevAvailable = false;
 			}
-			else if(!bPrevAvailable)
+			else if (!bPrevAvailable)
 			{
 				bPrevAvailable = true;
 				baseIdx = i;
@@ -171,6 +171,7 @@ public:
 		return -1;
 	}
 
+private:
 	std::list<AllocInfo*> mAllocInfoList;
 };
 
